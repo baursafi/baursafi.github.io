@@ -112,6 +112,8 @@ section .sub { color: var(--muted); margin: 0 0 32px; max-width: 680px; }
 .job .org { color: var(--muted); margin: 2px 0 10px; }
 .job ul { margin: 0; padding-left: 18px; }
 .job li { margin: 4px 0; }
+.redact { filter: blur(4px); user-select: none; cursor: help; }
+.job .note { margin: 12px 0 0; color: var(--muted); font-size: 14px; font-style: italic; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .tag { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 500; }
 @media (max-width: 760px) { .job { grid-template-columns: 1fr; gap: 4px; } }
